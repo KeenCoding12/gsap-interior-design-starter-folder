@@ -3,7 +3,6 @@ import {
   FooterItem,
   NavItem,
   ProcessItem,
-  ProjectItem,
   ServiceItem,
   StatusItem,
 } from "@/types/types";
@@ -74,38 +73,6 @@ export const servicesItems: ServiceItem[] = [
     id: 5,
     img: "/images/project-5.png",
     title: "Space planning",
-  },
-];
-export const projects: ProjectItem[] = [
-  {
-    id: 1,
-    img: "/images/project-1.png",
-    title: "Modern Living Space",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
-  },
-  {
-    id: 2,
-    img: "/images/project-2.png",
-    title: "Minimal workspace Design",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
-  },
-  {
-    id: 3,
-    img: "/images/project-3.png",
-    title: "Luxury Residential Interior",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
-  },
-  {
-    id: 4,
-    img: "/images/project-4.png",
-    title: "Luxury Residential interior",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
-  },
-  {
-    id: 5,
-    img: "/images/project-5.png",
-    title: "Luxury Residential interior",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati nihil quia corporis deserunt earum.",
   },
 ];
 

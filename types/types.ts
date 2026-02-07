@@ -16,13 +16,6 @@ export type ServiceItem = {
   title: string;
 };
 
-export type ProjectItem = {
-  id: number;
-  img: string;
-  title: string;
-  desc: string;
-};
-
 export type ProcessItem = {
   id: number;
   title: string;
