@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply px-[5vw] sm:px-[7vw] mx-auto;
+  }
+  .line {
+    @apply overflow-hidden text-nowrap;
+  }
+  .section {
+    @apply pt-28 lg:pt-32;
+  }
+  .section-title {
+    @apply font-semibold text-3xl sm:text-4xl lg:text-5xl leading-tight!;
+  }
+  .hamburger path {
+    @apply fill-none stroke-white;
+  }
+}
